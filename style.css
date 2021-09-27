@@ -83,8 +83,9 @@ nav{
 
 .cat-title{
     font-family:"Roboto Mono", monospace;
-    color:#8EEBFF;
+    color:#90DEFF;
     margin-bottom:15px;
+    letter-spacing:5px;
 }
 
 .cat-text{
