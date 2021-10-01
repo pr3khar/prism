@@ -44,6 +44,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom:150px;
 }
 
 .main-text{
@@ -116,4 +117,26 @@ nav{
 .mem-rollno{
     font-size:0.9rem;
     color:#929292;
+}
+
+@media only screen and (max-width: 1050px) {
+    .fit{
+        width:90%;
+    }
+
+    #main-page{
+        width:90%;
+        flex-direction: column;
+    }
+
+    .main-text{
+        width:100%;
+        margin-top:140px;
+    }
+
+    iframe{
+        width:350px;
+    }
+
+
 }
